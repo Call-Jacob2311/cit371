@@ -1,0 +1,345 @@
+/* 
+*
+*
+* Header Section
+*
+*
+*/
+
+#header-banner {
+    width: 100%;
+    height: 75px;
+    background-color: #ff4500;
+    position: static;
+}
+
+#header-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px; 
+    height: 180px;
+    position: relative;
+}
+
+#login-icon {
+    width: 35px; 
+    height: 35px;   
+    padding: 10px;
+    margin: 6px;
+}
+
+#login-icon2 {
+    width: 35px; 
+    height: 35px;   
+    padding: 10px;
+    margin: 6px;
+}
+
+#login-icon3 {
+    width: 35px; 
+    height: 35px;   
+    padding: 10px;
+    margin: 6px;
+}
+
+#logo_container {
+    position: absolute;
+    margin-left: 78%;
+}
+
+#header_title {
+    margin-top: -175px;
+    margin-left: 15px;
+    font-size: 55px;
+    color: white;
+}
+
+/* 
+*
+*
+* Navigation Section
+*
+*
+*/
+
+#navigation_bar {
+    width: 100%;
+    height: 47px;
+    background-color: #7F3E26;
+    display: flex;
+    justify-content: center;
+    position: static;
+    overflow: hidden;
+}
+
+#navs {
+    margin-top: 9px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 14px;
+}
+
+/* 
+*
+*
+* Search Section
+*
+*
+*/
+
+#search_container {
+    width: 100%;
+    height: 200px;
+    background-color: #FF7D4C;
+    position: static;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+}
+
+#search-area {
+    margin-top: 100px;
+}
+
+#search-icon {
+    margin-top: 100px;
+    width: 25px;
+    height: 25px;
+}
+
+/* 
+*
+*
+* Main body Section
+*
+*
+*/
+
+#main_body_container {
+    width: 100%;
+    height: 1100px;
+    background-color: #FF7D4C;
+    position: static;
+}
+
+#main_body_tools {
+    width: 100%;
+    height: 40px;
+    background-color: #7F3E26;
+}
+
+#main_body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    height: 1000px;
+    background-color: #ff4500;
+}
+
+/* 
+*
+*
+* Posts Section
+*
+*
+*/
+
+#post_container {
+    margin: 5px;
+}
+
+#post_one {
+    width: 99%;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 2px;
+    overflow: hidden;
+}
+
+#post_two {
+    width: 99%;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 2px;
+    overflow: hidden;
+}
+
+#post_three {
+    width: 99%;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 2px;
+    overflow: hidden;
+}
+
+#post_four {
+    width: 99%;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 2px;
+    overflow: hidden;
+}
+
+#post_five {
+    width: 99%;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 2px;
+    overflow: hidden;
+}
+
+#post_six {
+    width: 99%;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 2px;
+    overflow: hidden;
+}
+
+#post_title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#post_time {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+#post_tools {
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#main_body_tools {
+    display: flex;
+    align-items: center;
+}
+
+#tool-words {
+    color: white;
+    margin-left: 5px;
+}
+
+#white {
+    margin-left: 10px;
+    color: white;
+}
+
+select {
+    margin-left: 10px;
+}
+/* 
+*
+*
+* Photo section
+*
+*
+*/
+
+#photo_one {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#photo_two {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#photo_three {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#photo_four {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#photo_five {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#photo_six {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#up {
+    width: 20px;
+    height: 20px;
+}
+
+#down {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+#l {
+   width: 25px;
+   height: 25px; 
+   margin-left: 15px;
+   margin: 5px;
+}
+
+#ll {
+   width: 25px;
+   height: 25px; 
+   margin: 5px;
+}
+
+#lll {
+   width: 25px;
+   height: 25px;
+   margin: 5px;
+}
+
+#vote_count {
+    font-size: 28px;
+    font-family: Arial Black;
+}
+
+#vote_container {
+    float: right;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+
+
