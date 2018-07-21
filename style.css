@@ -152,6 +152,12 @@ a {
 *
 */
 
+#comment {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
 #post_container {
     margin: 5px;
 }

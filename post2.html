@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+- Author: Jacob Call
+- Date: 6/30/2018
+- Class: CIT 371, Finalized Prototype
+- Notes: I'm Awesome.
+-->
+
+<html>
+    <head>
+        <title>"NEW" Reddit Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        <div id='header-banner' onclick="window.location.href='index.html'">
+            
+            <div id="logo_container">
+                <img src="/CIT_371/images/login-icon.png" alt="Login icon" id="login-icon" onclick="window.location.href='profile.html'">
+                <img src="/CIT_371/images/message-icon.png" alt="Messages icon" id="login-icon3" onclick="window.location.href='message.html'">
+                <img src="/CIT_371/images/settings-icon.png" alt="Settings icon" id="login-icon2" onclick="window.location.href='settings.html'">  
+            </div>
+            
+            <img src="/CIT_371/images/reddit_logo.png" alt="Main header logo" id="header-logo">   
+            <p id="header_title" onclick="window.location.href='index.html'">Reddit</p>
+        </div>
+        
+        <div id="navigation_bar">
+            <div id="navs">
+                <a href="index.html">Home</a>
+                <a href="content_page.html">Popular</a>
+                <a href="content_page.html">All</a>
+                <a href="content_page.html">Random</a>
+                <a href="content_page.html">Users</a>
+                <a href="content_page.html">AskReddit</a>
+                <a href="content_page.html">Funny</a>
+                <a href="content_page.html">Life</a>
+                <a href="content_page.html">WorldNews</a>
+                <a href="content_page.html">Videos</a>
+                <a href="content_page.html">GIFs</a>
+                <a href="content_page.html">TIL</a>
+                <a href="content_page.html">Pics</a>
+                <a href="content_page.html">Gaming</a>
+                <a href="content_page.html">Movies</a>
+                <a href="content_page.html">News</a>
+                <a href="content_page.html">Aww</a>
+                <a href="content_page.html">MildelyIntresting</a>
+                <a href="content_page.html">ShowerThoughts</a>
+                <a href="content_page.html">Jokes</a> 
+            </div>
+        </div>
+        
+        <div id="search_container">
+            <div id="search">
+                <form action="/action_page.php">
+                    <input type="text" name="fname" size="50" id="search-area">
+                </form>
+                <img src="/CIT_371/images/search.png" alt="Search icon" id="search-icon">
+            </div>
+        </div>
+        
+        <div id="main_body_container">
+            <div id="main_body">
+                <div id="post_two">
+                        <img src="/CIT_371/images/earth.jpg" alt="Earth" id="photo_two" onclick="window.location.href='post2.html'">
+                        <span id="post_title" onclick="window.location.href='post2.html'">Locals of the Planet say it's gonna blow.</span> <span>(r/Funny)</span>
+                       <br>
+                       <span id="post_time">Submitted 10 hours ago by u/iluvdeearth</span>
+                       <br>
+                       <span id="post_tools">79 comments share save report</span>
+                       
+                       <div id="vote_container">
+                           <img src="/CIT_371/images/up.png" alt="Up" id="up">
+                           <img src="/CIT_371/images/down.png" alt="Down" id="down">
+                           <span id="vote_count">224</span>
+                       </div>
+                    </div>
+                
+                <div id="comment">
+                    Comments go here.
+                </div>
+            </div>
+                
+        </div>
+        
+    </body>
+    
+</html>
